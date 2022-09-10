@@ -2,7 +2,7 @@ from telegram import *
 from telegram.ext import *
 from requests import *
 
-updater = Updater(token="986301212:AAFtT4czM2csK5XaE98pkn9k6R-t_OrTyJ4")
+updater = Updater(token="")
 dispatcher = updater.dispatcher
 
 class User:
