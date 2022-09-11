@@ -5,7 +5,9 @@ import asyncio
 import time
 import datetime
 
-updater = Updater(token=open("token.txt").read())
+TOKEN = token=open("token.txt").read()
+
+updater = Updater(TOKEN)
 dispatcher = updater.dispatcher
 
 class User:
@@ -29,7 +31,7 @@ users = {}
 reminders = []
 
 async def remind():
-    bot = Bot(token=open("token.txt").read())
+    bot = Bot(TOKEN)
     global reminders
     while True:
         reminders_new = []
