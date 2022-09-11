@@ -5,7 +5,7 @@ import asyncio
 import time
 import datetime
 
-updater = Updater(token="986301212:AAFtT4czM2csK5XaE98pkn9k6R-t_OrTyJ4")
+updater = Updater(token=open("token.txt").read())
 dispatcher = updater.dispatcher
 
 class User:
