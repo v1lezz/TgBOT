@@ -5,7 +5,7 @@ import asyncio
 import time
 import datetime
 
-TOKEN = open("token.txt").read()
+TOKEN = 5533079024:AAHhutUO38HimSpZ6yRAIA2PMX3aVPTip6s
 
 updater = Updater(TOKEN)
 dispatcher = updater.dispatcher
